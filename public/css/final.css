@@ -145,14 +145,15 @@ nav {
   color: var(--blanco);
 }
 
-.social-media {
-  align-items: center;
+.social-medi {
   display: flex;
+  align-items: center;
   justify-content: space-around;
   margin: 32px auto 0;
+  width: 50%;
 }
 
-.social-media li a {
+.social-medi li a {
   align-items: center;
   display: flex;
   color: var(--blanco);
@@ -160,18 +161,23 @@ nav {
   text-decoration: none;
 }
 
-.social-media li a:focus{
+.social-medi li a:focus{
   outline: none;
 }
 
-.social-media li:focus-within {
+.social-medi li:focus-within {
   outline: 3px solid var(--verde);
   padding: 8px;
+}
+
+.social-medi img {
+  margin-left: 22px;
 }
 
 .social-link-text {
   padding-right: 8px;
   padding-left: 8px;
+  margin-right: 8px;
 }
 
 .carousel {
