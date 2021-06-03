@@ -18,7 +18,7 @@ app.get('/', function(req, res, next){
   res.render('final')
 });
 
-const server = app.listen(8000, function() {
+const server = app.listen(80, function() {
   console.log(`Listening http://localhost:${server.address().port}`)
 });
 
