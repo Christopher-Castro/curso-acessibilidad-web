@@ -1,0 +1,30 @@
+{
+  "name": "portafolio",
+  "version": "1.0.0",
+  "description": "Portafolio personal",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "nodemon index"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Christopher-Castro/curso-acessibilidad-web.git"
+  },
+  "keywords": [
+    "portafolio"
+  ],
+  "author": "Christopher Castro",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Christopher-Castro/curso-acessibilidad-web/issues"
+  },
+  "homepage": "https://github.com/Christopher-Castro/curso-acessibilidad-web#readme",
+  "dependencies": {
+    "ejs": "^3.1.6",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
