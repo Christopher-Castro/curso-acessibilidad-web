@@ -1,6 +1,7 @@
 const express = require('express')
 const app = express();
 const path = require('path');
+var port = process.env.PORT || 8000;
 
 // Set static files
 app.use(express.static('public'));
@@ -18,7 +19,7 @@ app.get('/', function(req, res, next){
   res.render('final')
 });
 
-const server = app.listen(80, function() {
+const server = app.listen(port, function() {
   console.log(`Listening http://localhost:${server.address().port}`)
 });
 
